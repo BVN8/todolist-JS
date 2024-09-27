@@ -1,0 +1,50 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+.delete-btn {
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+ul {
+  padding: 0;
+}
+
+.todo-container {
+  margin: auto;
+  max-width: 300px;
+}
+
+.todo-input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+h1 {
+  align-self: center;
+  padding-left: 40px;
+}
